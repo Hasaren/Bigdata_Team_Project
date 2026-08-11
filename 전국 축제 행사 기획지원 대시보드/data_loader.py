@@ -8,11 +8,15 @@ Festival/pages_src/data_loader.py
 '''
 import streamlit as st
 import pandas as pd
+from pathlib import Path
 
 MONTH_ORDER = [f'{i}월' for i in range(1, 13)]
 
+BASE_DIR = Path(__file__).resolve().parent
+DATA_PATH = BASE_DIR / "input" / "전국문화축제정보정리_raw.csv"
+
 @st.cache_data
-def load_festival(path: str='./input/전국문화축제정보정리_raw.csv') -> pd.DataFrame:
+def load_festival(path: str=DATA_PATH) -> pd.DataFrame:
     """
     전국문화축제정보정리_raw.csv를 읽어 반환한다. (전국 문화축제 정보 데이터)
     """
