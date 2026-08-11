@@ -2,7 +2,7 @@
 
 전국 문화축제 데이터를 기반으로 **축제 검색, 기간별 방문객 추이 분석, 대중교통 인프라 분석, 축제 비교 및 방문객 수 예측**을 제공하는 Streamlit 기반 데이터 분석 프로젝트입니다.
 
-https://bigdatateamproject-kwjtcc746xdpvy6zrrqqd6.streamlit.app/deep_search_festival_app
+https://bigdatateamproject-kwjtcc746xdpvy6zrrqqd6.streamlit.app
 ---
 
 ## 📌 프로젝트 소개
