@@ -12,7 +12,7 @@ import pandas as pd
 MONTH_ORDER = [f'{i}월' for i in range(1, 13)]
 
 @st.cache_data
-def load_festival(path: str='./input/전국문화축제정보정리_raw.csv') -> pd.DataFrame:
+def load_festival(path: str='input/전국문화축제정보정리_raw.csv') -> pd.DataFrame:
     """
     전국문화축제정보정리_raw.csv를 읽어 반환한다. (전국 문화축제 정보 데이터)
     """
